@@ -8,22 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		BF333B341C7E247A00D5E660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF333B331C7E247A00D5E660 /* AppDelegate.swift */; };
-		BF333B361C7E247A00D5E660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF333B351C7E247A00D5E660 /* ViewController.swift */; };
+		BF333B361C7E247A00D5E660 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF333B351C7E247A00D5E660 /* MainViewController.swift */; };
 		BF333B391C7E247A00D5E660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF333B371C7E247A00D5E660 /* Main.storyboard */; };
 		BF333B3C1C7E247A00D5E660 /* newsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF333B3A1C7E247A00D5E660 /* newsApp.xcdatamodeld */; };
 		BF333B3E1C7E247A00D5E660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF333B3D1C7E247A00D5E660 /* Assets.xcassets */; };
 		BF333B411C7E247A00D5E660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF333B3F1C7E247A00D5E660 /* LaunchScreen.storyboard */; };
+		BF333B491C7E285200D5E660 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF333B481C7E285200D5E660 /* Request.swift */; };
+		BF333B4B1C7E2A4100D5E660 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF333B4A1C7E2A4100D5E660 /* SwiftyJSON.swift */; };
+		BF333B4D1C7E414000D5E660 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF333B4C1C7E414000D5E660 /* NewsDetailViewController.swift */; };
+		BF879AAE1C99BDB7006CBFE8 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF879AAA1C99BDB7006CBFE8 /* Fabric.framework */; };
+		BF879AAF1C99BDB7006CBFE8 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF879AAB1C99BDB7006CBFE8 /* TwitterKit.framework */; };
+		BF879AB01C99BDB7006CBFE8 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF879AAC1C99BDB7006CBFE8 /* TwitterKitResources.bundle */; };
+		BF879AB11C99BDB7006CBFE8 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF879AAD1C99BDB7006CBFE8 /* TwitterCore.framework */; };
+		BF879AB31C99C436006CBFE8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879AB21C99C436006CBFE8 /* LoginViewController.swift */; };
+		BF879AB51C99C607006CBFE8 /* CheckLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879AB41C99C607006CBFE8 /* CheckLoginController.swift */; };
+		BF879AB71C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879AB61C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift */; };
+		BFC3C56F1C90A44000DB6E7B /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3C56E1C90A44000DB6E7B /* Core.swift */; };
+		BFE0A0ED1C9B1F1E001DA837 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE0A0EA1C9B1F1E001DA837 /* FBShimmeringLayer.m */; };
+		BFE0A0EE1C9B1F1E001DA837 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE0A0EC1C9B1F1E001DA837 /* FBShimmeringView.m */; };
+		BFF4BD501C9DEEE60089B400 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BFF4BD4F1C9DEEE60089B400 /* .gitignore */; };
+		BFF4BD521C9DEF1D0089B400 /* TwitterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF4BD511C9DEF1D0089B400 /* TwitterData.swift */; };
+		BFF69F3E1C7E6C4C00BF5F16 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF69F3D1C7E6C4C00BF5F16 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF333B301C7E247A00D5E660 /* newsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF333B331C7E247A00D5E660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF333B351C7E247A00D5E660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF333B351C7E247A00D5E660 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BF333B381C7E247A00D5E660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF333B3B1C7E247A00D5E660 /* newsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = newsApp.xcdatamodel; sourceTree = "<group>"; };
 		BF333B3D1C7E247A00D5E660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF333B401C7E247A00D5E660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF333B421C7E247A00D5E660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF333B481C7E285200D5E660 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		BF333B4A1C7E2A4100D5E660 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BF333B4C1C7E414000D5E660 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		BF879AAA1C99BDB7006CBFE8 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		BF879AAB1C99BDB7006CBFE8 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		BF879AAC1C99BDB7006CBFE8 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		BF879AAD1C99BDB7006CBFE8 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		BF879AB21C99C436006CBFE8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BF879AB41C99C607006CBFE8 /* CheckLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckLoginController.swift; sourceTree = "<group>"; };
+		BF879AB61C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsYorkTableViewCell.swift; sourceTree = "<group>"; };
+		BFC3C56E1C90A44000DB6E7B /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		BFE0A0E71C9B1F1E001DA837 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		BFE0A0E81C9B1F1E001DA837 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		BFE0A0E91C9B1F1E001DA837 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		BFE0A0EA1C9B1F1E001DA837 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		BFE0A0EB1C9B1F1E001DA837 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		BFE0A0EC1C9B1F1E001DA837 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		BFE0A0EF1C9B1F6C001DA837 /* Brindging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Brindging-Header.h"; sourceTree = "<group>"; };
+		BFF4BD4F1C9DEEE60089B400 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BFF4BD511C9DEF1D0089B400 /* TwitterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterData.swift; sourceTree = "<group>"; };
+		BFF69F3D1C7E6C4C00BF5F16 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF879AAE1C99BDB7006CBFE8 /* Fabric.framework in Frameworks */,
+				BF879AB11C99BDB7006CBFE8 /* TwitterCore.framework in Frameworks */,
+				BF879AAF1C99BDB7006CBFE8 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +80,13 @@
 		BF333B271C7E247A00D5E660 = {
 			isa = PBXGroup;
 			children = (
+				BFF4BD4F1C9DEEE60089B400 /* .gitignore */,
+				BF879AAA1C99BDB7006CBFE8 /* Fabric.framework */,
+				BF879AAB1C99BDB7006CBFE8 /* TwitterKit.framework */,
+				BF879AAC1C99BDB7006CBFE8 /* TwitterKitResources.bundle */,
+				BF879AAD1C99BDB7006CBFE8 /* TwitterCore.framework */,
 				BF333B321C7E247A00D5E660 /* newsApp */,
+				BFE0A0E61C9B1F1E001DA837 /* FBShimmering */,
 				BF333B311C7E247A00D5E660 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,14 +103,37 @@
 			isa = PBXGroup;
 			children = (
 				BF333B331C7E247A00D5E660 /* AppDelegate.swift */,
-				BF333B351C7E247A00D5E660 /* ViewController.swift */,
+				BF333B351C7E247A00D5E660 /* MainViewController.swift */,
+				BFF69F3D1C7E6C4C00BF5F16 /* SearchViewController.swift */,
+				BF879AB21C99C436006CBFE8 /* LoginViewController.swift */,
+				BFE0A0EF1C9B1F6C001DA837 /* Brindging-Header.h */,
+				BF879AB61C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift */,
+				BF879AB41C99C607006CBFE8 /* CheckLoginController.swift */,
+				BF333B4C1C7E414000D5E660 /* NewsDetailViewController.swift */,
+				BFC3C56E1C90A44000DB6E7B /* Core.swift */,
+				BF333B481C7E285200D5E660 /* Request.swift */,
 				BF333B371C7E247A00D5E660 /* Main.storyboard */,
 				BF333B3D1C7E247A00D5E660 /* Assets.xcassets */,
+				BF333B4A1C7E2A4100D5E660 /* SwiftyJSON.swift */,
 				BF333B3F1C7E247A00D5E660 /* LaunchScreen.storyboard */,
 				BF333B421C7E247A00D5E660 /* Info.plist */,
 				BF333B3A1C7E247A00D5E660 /* newsApp.xcdatamodeld */,
+				BFF4BD511C9DEF1D0089B400 /* TwitterData.swift */,
 			);
 			path = newsApp;
+			sourceTree = "<group>";
+		};
+		BFE0A0E61C9B1F1E001DA837 /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				BFE0A0E71C9B1F1E001DA837 /* FBShimmering-Prefix.pch */,
+				BFE0A0E81C9B1F1E001DA837 /* FBShimmering.h */,
+				BFE0A0E91C9B1F1E001DA837 /* FBShimmeringLayer.h */,
+				BFE0A0EA1C9B1F1E001DA837 /* FBShimmeringLayer.m */,
+				BFE0A0EB1C9B1F1E001DA837 /* FBShimmeringView.h */,
+				BFE0A0EC1C9B1F1E001DA837 /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +146,7 @@
 				BF333B2C1C7E247A00D5E660 /* Sources */,
 				BF333B2D1C7E247A00D5E660 /* Frameworks */,
 				BF333B2E1C7E247A00D5E660 /* Resources */,
+				BF879AA91C99BD16006CBFE8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,6 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF4BD501C9DEEE60089B400 /* .gitignore in Resources */,
+				BF879AB01C99BDB7006CBFE8 /* TwitterKitResources.bundle in Resources */,
 				BF333B411C7E247A00D5E660 /* LaunchScreen.storyboard in Resources */,
 				BF333B3E1C7E247A00D5E660 /* Assets.xcassets in Resources */,
 				BF333B391C7E247A00D5E660 /* Main.storyboard in Resources */,
@@ -134,14 +206,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BF879AA91C99BD16006CBFE8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run c75f94c7e0f3562255b51bf62c1ab16e3efa0a9d 643cb43037a95c456294bd0a92ab9a6d512da2222c40322ab1e2cb5e9c4009c1";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF333B2C1C7E247A00D5E660 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF333B361C7E247A00D5E660 /* ViewController.swift in Sources */,
+				BF879AB31C99C436006CBFE8 /* LoginViewController.swift in Sources */,
+				BFF4BD521C9DEF1D0089B400 /* TwitterData.swift in Sources */,
+				BF333B4D1C7E414000D5E660 /* NewsDetailViewController.swift in Sources */,
+				BFF69F3E1C7E6C4C00BF5F16 /* SearchViewController.swift in Sources */,
+				BF333B361C7E247A00D5E660 /* MainViewController.swift in Sources */,
 				BF333B3C1C7E247A00D5E660 /* newsApp.xcdatamodeld in Sources */,
 				BF333B341C7E247A00D5E660 /* AppDelegate.swift in Sources */,
+				BFE0A0ED1C9B1F1E001DA837 /* FBShimmeringLayer.m in Sources */,
+				BFE0A0EE1C9B1F1E001DA837 /* FBShimmeringView.m in Sources */,
+				BF333B4B1C7E2A4100D5E660 /* SwiftyJSON.swift in Sources */,
+				BFC3C56F1C90A44000DB6E7B /* Core.swift in Sources */,
+				BF879AB51C99C607006CBFE8 /* CheckLoginController.swift in Sources */,
+				BF879AB71C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift in Sources */,
+				BF333B491C7E285200D5E660 /* Request.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,10 +353,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = newsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = projects.newsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/newsApp/Brindging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -265,10 +370,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = newsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = projects.newsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/newsApp/Brindging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -291,6 +402,7 @@
 				BF333B471C7E247A00D5E660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
