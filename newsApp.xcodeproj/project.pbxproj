@@ -24,6 +24,7 @@
 		BF879AB51C99C607006CBFE8 /* CheckLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879AB41C99C607006CBFE8 /* CheckLoginController.swift */; };
 		BF879AB71C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF879AB61C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift */; };
 		BFC3C56F1C90A44000DB6E7B /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3C56E1C90A44000DB6E7B /* Core.swift */; };
+		BFCCC6121CDD422C006F801A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BFCCC6111CDD422C006F801A /* README.md */; };
 		BFE0A0ED1C9B1F1E001DA837 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE0A0EA1C9B1F1E001DA837 /* FBShimmeringLayer.m */; };
 		BFE0A0EE1C9B1F1E001DA837 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE0A0EC1C9B1F1E001DA837 /* FBShimmeringView.m */; };
 		BFF4BD501C9DEEE60089B400 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BFF4BD4F1C9DEEE60089B400 /* .gitignore */; };
@@ -51,6 +52,7 @@
 		BF879AB41C99C607006CBFE8 /* CheckLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckLoginController.swift; sourceTree = "<group>"; };
 		BF879AB61C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsYorkTableViewCell.swift; sourceTree = "<group>"; };
 		BFC3C56E1C90A44000DB6E7B /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		BFCCC6111CDD422C006F801A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFE0A0E71C9B1F1E001DA837 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
 		BFE0A0E81C9B1F1E001DA837 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
 		BFE0A0E91C9B1F1E001DA837 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		BF333B271C7E247A00D5E660 = {
 			isa = PBXGroup;
 			children = (
+				BFCCC6111CDD422C006F801A /* README.md */,
 				BFF4BD4F1C9DEEE60089B400 /* .gitignore */,
 				BF879AAA1C99BDB7006CBFE8 /* Fabric.framework */,
 				BF879AAB1C99BDB7006CBFE8 /* TwitterKit.framework */,
@@ -102,25 +105,49 @@
 		BF333B321C7E247A00D5E660 /* newsApp */ = {
 			isa = PBXGroup;
 			children = (
-				BF333B331C7E247A00D5E660 /* AppDelegate.swift */,
-				BF333B351C7E247A00D5E660 /* MainViewController.swift */,
-				BFF69F3D1C7E6C4C00BF5F16 /* SearchViewController.swift */,
-				BF879AB21C99C436006CBFE8 /* LoginViewController.swift */,
-				BFE0A0EF1C9B1F6C001DA837 /* Brindging-Header.h */,
+				BF8ECB181CB4858200B600E1 /* Defaults */,
+				BF8ECB171CB4856A00B600E1 /* Api */,
+				BF8ECB161CB4855500B600E1 /* Controllers */,
 				BF879AB61C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift */,
-				BF879AB41C99C607006CBFE8 /* CheckLoginController.swift */,
-				BF333B4C1C7E414000D5E660 /* NewsDetailViewController.swift */,
-				BFC3C56E1C90A44000DB6E7B /* Core.swift */,
-				BF333B481C7E285200D5E660 /* Request.swift */,
 				BF333B371C7E247A00D5E660 /* Main.storyboard */,
-				BF333B3D1C7E247A00D5E660 /* Assets.xcassets */,
-				BF333B4A1C7E2A4100D5E660 /* SwiftyJSON.swift */,
-				BF333B3F1C7E247A00D5E660 /* LaunchScreen.storyboard */,
-				BF333B421C7E247A00D5E660 /* Info.plist */,
-				BF333B3A1C7E247A00D5E660 /* newsApp.xcdatamodeld */,
-				BFF4BD511C9DEF1D0089B400 /* TwitterData.swift */,
 			);
 			path = newsApp;
+			sourceTree = "<group>";
+		};
+		BF8ECB161CB4855500B600E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF333B4C1C7E414000D5E660 /* NewsDetailViewController.swift */,
+				BF879AB41C99C607006CBFE8 /* CheckLoginController.swift */,
+				BF879AB21C99C436006CBFE8 /* LoginViewController.swift */,
+				BFF69F3D1C7E6C4C00BF5F16 /* SearchViewController.swift */,
+				BF333B351C7E247A00D5E660 /* MainViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BF8ECB171CB4856A00B600E1 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				BF333B481C7E285200D5E660 /* Request.swift */,
+				BFC3C56E1C90A44000DB6E7B /* Core.swift */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		BF8ECB181CB4858200B600E1 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				BFF4BD511C9DEF1D0089B400 /* TwitterData.swift */,
+				BF333B4A1C7E2A4100D5E660 /* SwiftyJSON.swift */,
+				BF333B331C7E247A00D5E660 /* AppDelegate.swift */,
+				BF333B421C7E247A00D5E660 /* Info.plist */,
+				BF333B3F1C7E247A00D5E660 /* LaunchScreen.storyboard */,
+				BF333B3A1C7E247A00D5E660 /* newsApp.xcdatamodeld */,
+				BFE0A0EF1C9B1F6C001DA837 /* Brindging-Header.h */,
+				BF333B3D1C7E247A00D5E660 /* Assets.xcassets */,
+			);
+			name = Defaults;
 			sourceTree = "<group>";
 		};
 		BFE0A0E61C9B1F1E001DA837 /* FBShimmering */ = {
@@ -239,6 +266,7 @@
 				BF333B4B1C7E2A4100D5E660 /* SwiftyJSON.swift in Sources */,
 				BFC3C56F1C90A44000DB6E7B /* Core.swift in Sources */,
 				BF879AB51C99C607006CBFE8 /* CheckLoginController.swift in Sources */,
+				BFCCC6121CDD422C006F801A /* README.md in Sources */,
 				BF879AB71C9A10AA006CBFE8 /* NewsYorkTableViewCell.swift in Sources */,
 				BF333B491C7E285200D5E660 /* Request.swift in Sources */,
 			);

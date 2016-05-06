@@ -52,7 +52,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let dic = self.newsArray[indexPath.item]
         let title = dic["title"]!
         let date = dic["date"]!
-        
+        cell.accessoryType = .DisclosureIndicator
         cell.textLabel!.text = title
         cell.detailTextLabel!.text = date
         return cell
